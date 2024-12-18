@@ -19,7 +19,12 @@ font-family: 'lato', sans-serif;
 
 /* Header */
 header {
-    background-color: lightcoral;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
 }
 
 h1 {
@@ -37,7 +42,7 @@ main {
 footer {
     background-color: orange;
 }
-
+/* removing bullet points from list elements */
 li {
     list-style-type: none;
 }
