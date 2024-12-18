@@ -22,6 +22,10 @@ header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
 /* Main content */
 main {
     background-color: lightblue;
@@ -33,9 +37,3 @@ main {
 footer {
     background-color: orange;
 }
-/* Lato-light font*/
-.lato-light {
-    font-family: "Lato", serif;
-    font-weight: 300;
-    font-style: normal;
-  }
