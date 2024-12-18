@@ -50,7 +50,9 @@ main {
 footer {
     background-color: orange;
 }
-/* removing bullet points from list elements */
-li {
+/* removing bullet points from list elements, letter spacing and adjusting size of text */
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
 }
