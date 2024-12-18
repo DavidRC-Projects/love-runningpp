@@ -1,5 +1,5 @@
 /* Google fonts import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
@@ -7,14 +7,15 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* General styles */
 body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
-/* Generic project styles */
-color: #3a3a3a;
-font-family: 'lato', sans-serif; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Header */
@@ -42,19 +43,6 @@ h1 {
     color: #252525;
 }
 
-/* Main content */
-main {
-    background-color: lightblue;
-    /* Make main element take up any surplus space to push footer down */
-    flex: 1 0 auto;
-    margin-top: 47px;
-}
-
-/* footer */
-footer {
-    background-color: orange;
-}
-/* removing bullet points from list elements, letter spacing and adjusting size of text */
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -70,7 +58,6 @@ footer {
 }
 
 /* Navbar styles with dropdown toggle */
-
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -83,7 +70,6 @@ nav {
 }
 
 /* Nav toggle */
-
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -94,4 +80,17 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+}
+
+/* Main content */
+main {
+    background-color: lightblue;
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
+    margin-top: 47px;
+}
+
+/* Footer */
+footer {
+    background-color: orange;
 }
